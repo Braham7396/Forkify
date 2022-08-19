@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Braham's Recipe App",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Braham",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "core-js": "^3.24.1",
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.11",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
